@@ -1,0 +1,305 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Externallib\FreeImage\Examples\OpenGL\TextureManager\TextureManager.h">
+      <DeploymentContent>false</DeploymentContent>
+    </ClInclude>
+    <ClInclude Include="AnimatinonBase.h">
+      <DeploymentContent>false</DeploymentContent>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <DeploymentContent>false</DeploymentContent>
+    </ClInclude>
+    <ClInclude Include="Anorms.h">
+      <DeploymentContent>false</DeploymentContent>
+    </ClInclude>
+    <ClInclude Include="AtlasObj.h">
+      <DeploymentContent>false</DeploymentContent>
+    </ClInclude>
+    <ClInclude Include="AttacheAble.h">
+      <DeploymentContent>false</DeploymentContent>
+    </ClInclude>
+    <ClInclude Include="ClickEventArgs.h">
+      <DeploymentContent>false</DeploymentContent>
+    </ClInclude>
+    <ClInclude Include="CollisionMap.h">
+      <DeploymentContent>false</DeploymentContent>
+    </ClInclude>
+    <ClInclude Include="CollisionMapCreater.h">
+      <DeploymentContent>false</DeploymentContent>
+    </ClInclude>
+    <ClInclude Include="CommonDataType.h">
+      <DeploymentContent>false</DeploymentContent>
+    </ClInclude>
+    <ClInclude Include="CXBOXController.h">
+      <DeploymentContent>false</DeploymentContent>
+    </ClInclude>
+    <ClInclude Include="DataManager.h">
+      <DeploymentContent>false</DeploymentContent>
+    </ClInclude>
+    <ClInclude Include="defAnimations.h">
+      <DeploymentContent>false</DeploymentContent>
+    </ClInclude>
+    <ClInclude Include="DefExport.h" />
+    <ClInclude Include="Eventlistener.h">
+      <DeploymentContent>false</DeploymentContent>
+    </ClInclude>
+    <ClInclude Include="ExGameGraphicInfo.h">
+      <DeploymentContent>false</DeploymentContent>
+    </ClInclude>
+    <ClInclude Include="EyeMouseMove.h">
+      <DeploymentContent>false</DeploymentContent>
+    </ClInclude>
+    <ClInclude Include="GameStadiumScreen.h">
+      <DeploymentContent>false</DeploymentContent>
+    </ClInclude>
+    <ClInclude Include="Grid.h" />
+    <ClInclude Include="GridBar.h" />
+    <ClInclude Include="IContainer.h" />
+    <ClInclude Include="IEventHandler.h">
+      <DeploymentContent>false</DeploymentContent>
+    </ClInclude>
+    <ClInclude Include="IGameStage.h">
+      <DeploymentContent>false</DeploymentContent>
+    </ClInclude>
+    <ClInclude Include="Image.h">
+      <DeploymentContent>false</DeploymentContent>
+    </ClInclude>
+    <ClInclude Include="ImageControl.h" />
+    <ClInclude Include="ImageLoader.h">
+      <DeploymentContent>false</DeploymentContent>
+    </ClInclude>
+    <ClInclude Include="InGameUI.h">
+      <DeploymentContent>false</DeploymentContent>
+    </ClInclude>
+    <ClInclude Include="IRootUI.h" />
+    <ClInclude Include="IUIBase.h">
+      <DeploymentContent>false</DeploymentContent>
+    </ClInclude>
+    <ClInclude Include="KingControl.h" />
+    <ClInclude Include="LoadingScreen.h">
+      <DeploymentContent>false</DeploymentContent>
+    </ClInclude>
+    <ClInclude Include="MainScreen.h">
+      <DeploymentContent>false</DeploymentContent>
+    </ClInclude>
+    <ClInclude Include="ObjectMove.h">
+      <DeploymentContent>false</DeploymentContent>
+    </ClInclude>
+    <ClInclude Include="ObjectNumberingMananger.h">
+      <DeploymentContent>false</DeploymentContent>
+    </ClInclude>
+    <ClInclude Include="Penal.h" />
+    <ClInclude Include="RootUI.h" />
+    <ClInclude Include="SelectableObject.h">
+      <DeploymentContent>false</DeploymentContent>
+    </ClInclude>
+    <ClInclude Include="Snumber.h" />
+    <ClInclude Include="StageManager.h">
+      <DeploymentContent>false</DeploymentContent>
+    </ClInclude>
+    <ClInclude Include="TinyFont.h">
+      <DeploymentContent>false</DeploymentContent>
+    </ClInclude>
+    <ClInclude Include="UIBase.h">
+      <DeploymentContent>false</DeploymentContent>
+    </ClInclude>
+    <ClInclude Include="KardNameFactory.h">
+      <DeploymentContent>false</DeploymentContent>
+    </ClInclude>
+    <ClInclude Include="LuaManager.h">
+      <DeploymentContent>false</DeploymentContent>
+    </ClInclude>
+    <ClInclude Include="LuaScriptAttached.h">
+      <DeploymentContent>false</DeploymentContent>
+    </ClInclude>
+    <ClInclude Include="GameObejct.h">
+      <DeploymentContent>false</DeploymentContent>
+    </ClInclude>
+    <ClInclude Include="MashManager.h">
+      <DeploymentContent>false</DeploymentContent>
+    </ClInclude>
+    <ClInclude Include="Md2Model.h">
+      <DeploymentContent>false</DeploymentContent>
+    </ClInclude>
+    <ClInclude Include="Md2Object.h">
+      <DeploymentContent>false</DeploymentContent>
+    </ClInclude>
+    <ClInclude Include="GameWorld.h">
+      <DeploymentContent>false</DeploymentContent>
+    </ClInclude>
+    <ClInclude Include="ModelInterface.h">
+      <DeploymentContent>false</DeploymentContent>
+    </ClInclude>
+    <ClInclude Include="MotionEvent.h">
+      <DeploymentContent>false</DeploymentContent>
+    </ClInclude>
+    <ClInclude Include="ObjectManager.h">
+      <DeploymentContent>false</DeploymentContent>
+    </ClInclude>
+    <ClInclude Include="Opengl2md2.h">
+      <DeploymentContent>false</DeploymentContent>
+    </ClInclude>
+    <ClInclude Include="PieceModel.h">
+      <DeploymentContent>false</DeploymentContent>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <DeploymentContent>false</DeploymentContent>
+    </ClInclude>
+    <ClInclude Include="PointF.h">
+      <DeploymentContent>false</DeploymentContent>
+    </ClInclude>
+    <ClInclude Include="ProjectLoader.h">
+      <DeploymentContent>false</DeploymentContent>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <DeploymentContent>false</DeploymentContent>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <DeploymentContent>false</DeploymentContent>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <DeploymentContent>false</DeploymentContent>
+    </ClInclude>
+    <ClInclude Include="ViewCamera.h">
+      <DeploymentContent>false</DeploymentContent>
+    </ClInclude>
+    <ClInclude Include="VolkesInterface.h" />
+    <ClInclude Include="XBoxControllerManager.h">
+      <DeploymentContent>false</DeploymentContent>
+    </ClInclude>
+    <ClInclude Include="triangulate.h">
+      <DeploymentContent>false</DeploymentContent>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Externallib\FreeImage\Examples\OpenGL\TextureManager\TextureManager.cpp" />
+    <ClCompile Include="AnimatinonBase.cpp" />
+    <ClCompile Include="Animation.cpp" />
+    <ClCompile Include="AttacheAble.cpp" />
+    <ClCompile Include="CollisionMap.cpp" />
+    <ClCompile Include="CollisionMapCreater.cpp" />
+    <ClCompile Include="CXBOXController.cpp" />
+    <ClCompile Include="DataManager.cpp" />
+    <ClCompile Include="ExGameGraphicInfo.cpp" />
+    <ClCompile Include="EyeMouseMove.cpp" />
+    <ClCompile Include="GameStadiumScreen.cpp" />
+    <ClCompile Include="Image.cpp" />
+    <ClCompile Include="ImageControl.cpp" />
+    <ClCompile Include="ImageLoader.cpp" />
+    <ClCompile Include="InGameUI.cpp" />
+    <ClCompile Include="KardNameFactory.cpp" />
+    <ClCompile Include="KingControl.cpp" />
+    <ClCompile Include="LoadingScreen.cpp" />
+    <ClCompile Include="LuaManager.cpp" />
+    <ClCompile Include="LuaScriptAttached.cpp" />
+    <ClCompile Include="MainScreen.cpp" />
+    <ClCompile Include="GameObejct.cpp" />
+    <ClCompile Include="GameWorld.cpp" />
+    <ClCompile Include="MashManager.cpp" />
+    <ClCompile Include="Md2Model.cpp" />
+    <ClCompile Include="Md2Object.cpp" />
+    <ClCompile Include="ObjectManager.cpp" />
+    <ClCompile Include="ObjectMove.cpp" />
+    <ClCompile Include="ObjectNumberingMananger.cpp" />
+    <ClCompile Include="Opengl2md2.cpp" />
+    <ClCompile Include="Penal.cpp" />
+    <ClCompile Include="PieceModel.cpp" />
+    <ClCompile Include="ProjectLoader.cpp" />
+    <ClCompile Include="RootUI.cpp" />
+    <ClCompile Include="SelectableObject.cpp" />
+    <ClCompile Include="SoundManager.cpp" />
+    <ClCompile Include="StageManager.cpp" />
+    <ClCompile Include="Stringformat.h">
+      <DeploymentContent>false</DeploymentContent>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp" />
+    <ClCompile Include="TinyFont.cpp" />
+    <ClCompile Include="UIBase.cpp" />
+    <ClCompile Include="ViewCamera.cpp" />
+    <ClCompile Include="XBoxControllerManager.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B691AD81-2EE3-4DEE-A762-50A15884C8D6}</ProjectGuid>
+    <RootNamespace>Opengl2Md2</RootNamespace>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <CLRSupport>false</CLRSupport>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)$(ProjectName)\</OutDir>
+    <IntDir>$(SolutionDir)$(Configuration)$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)$(ProjectName)\</OutDir>
+    <IntDir>$(SolutionDir)$(Configuration)$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <CompileAsManaged>false</CompileAsManaged>
+      <ForcedIncludeFiles>%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ShowIncludes>true</ShowIncludes>
+      <AdditionalIncludeDirectories>$(SolutionDir)Externallib\ftgl-2.1.3\src\FTGL;$(SolutionDir)Externallib\ftgl-2.1.3\src;$(SolutionDir)Externallib\freetype\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>opengl32.lib;$(SolutionDir)OpenGLlib/glew32.lib;$(SolutionDir)OpenGLlib/glut32.lib;$(SolutionDir)$(Configuration)tinyxml\tinyxml.lib;$(SolutionDir)$(Configuration)Lua\Lua.lib;$(SolutionDir)Externallib\LuaJit\output\lua51.lib;$(SolutionDir)$(Configuration)ftgl_static\ftgl_static.lib;$(SolutionDir)Externallib\FreeImage\Dist\x32\FreeImaged.lib;$(SolutionDir)Externallib\freetype-2.8.1\objs\vc2010\Win32\freetype281d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>$(SolutionDir)Externallib\ftgl-2.1.3\src\FTGL;$(SolutionDir)Externallib\ftgl-2.1.3\src;$(SolutionDir)Externallib\freetype\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>opengl32.lib;$(SolutionDir)OpenGLlib/glew32.lib;$(SolutionDir)OpenGLlib/glut32.lib;$(SolutionDir)$(Configuration)tinyxml\tinyxml.lib;$(SolutionDir)$(Configuration)Lua\Lua.lib;$(SolutionDir)$(Configuration)ftgl_static\ftgl_static.lib;$(SolutionDir)Externallib\LuaJit\output\lua51.lib;$(SolutionDir)Externallib\FreeImage\Dist\x32\FreeImage.lib;$(SolutionDir)Externallib\freetype-2.8.1\objs\vc2010\Win32\freetype281.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
