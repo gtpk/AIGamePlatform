@@ -320,3 +320,14 @@ ASALocalRun/
 
 # MSBuild Binary and Structured Log
 *.binlog
+/GameSource/Externallib/FreeImage/Dist/x32/FreeImageLib.lib
+/GameSource/Externallib/FreeImage/Dist/x32/FreeImageLibd.lib
+/GameSource/DebugOpengl2Md2/Opengl2Md2.lib
+/GameSource/Externallib/FreeImage/Dist/x32/FreeImaged.dll
+/GameSource/Releaseftgl_static/ftgl_static.lib
+/GameSource/Externallib/ftgl-2.1.3/msvc/Build/ftgl_static.lib
+/GameSource/Externallib/FreeImage/Dist/x32/FreeImage.dll
+/GameSource/Externallib/freetype-2.8.1/objs/vc2010/Win32/freetype281d.lib
+/GameSource/Debugftgl_static/ftgl_static.lib
+/GameSource/Externallib/ftgl-2.1.3/msvc/Build/ftgl_static_D.lib
+/GameSource/DebugOpengl2Md2/Opengl2Md2.dll
